@@ -4,20 +4,20 @@ public class Main {
   
   public static class Product{
     public int product(int x, int y) {
-        return x+y;
+        return x*y;
     }
     public int product(int x, int y, int z) {
-        return x+y+z;
+        return x*y*z;
     }
      public double product(double x, double y) {
-         return x+y;
+         return x*y;
      }
   }
   public static void main(String[] args){
       Product p=new Product();
-       p.product(5,7);
-       p.product(6,9,8);
-       p.product(3.56,6.79);
+       p.product(6,8);
+       p.product(8,9,10);
+       p.product(8.5,9.75);
    }
 
 }
